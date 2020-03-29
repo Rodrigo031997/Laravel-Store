@@ -1,0 +1,60 @@
+// Fonts
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+// Vuetify
+@import "node_modules/materialize-css/sass/materialize";
+
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+header, main, footer {
+padding-left: 0;
+}
+}
+
+h4 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+}
+
+li.tab.side {
+    display: block;
+    text-align: inherit;
+}
+
+.text-teal * {
+  color: #26A69A !important;
+}
+
+.text-teal * {
+  color: #26A69A !important;
+}
+.text-teal .active {
+  background-color: #26A69A !important;
+  color: #FFF !important;
+}
+
+ul#slide-out.tabs {
+  display: block;
+}
+ul#slide-out.tabs .indicator{
+  display:none;
+}
+.drop,.dropdown-content{
+  width: 100px;
+}
+
+.header {
+  color: #7e57c2 ;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 1.9466666667rem 0 1.168rem 0;
+}
+
